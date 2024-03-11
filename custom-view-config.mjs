@@ -10,8 +10,8 @@ const config = {
       hostUriPath: '/composable-demo/customers/d26b721c-b721-4561-ba0e-23d6361ddddb/general'
     },
     production: {
-      customViewId: 'xxx',
-      url: 'https://cart-manager-view.netlify.app',
+      customViewId: 'cltmwki4x0001376bp5kbky32',
+      url: 'https://serene-haupia-67b78c.netlify.app',
     },
   },
   oAuthScopes: {
