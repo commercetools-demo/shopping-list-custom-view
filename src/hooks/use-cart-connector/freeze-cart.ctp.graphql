@@ -1,0 +1,16 @@
+mutation UpdateCart($version: Long!, $cartId: String!) {
+updateCart(
+    id: $cartId
+    version: $version
+    actions: [
+      {
+        freezeCart: {
+        }
+      }
+       
+    ]
+  ) {
+    id
+    cartState
+  }
+}

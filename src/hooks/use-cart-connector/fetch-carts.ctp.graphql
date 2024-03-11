@@ -1,0 +1,61 @@
+query FetchCarts($where: String!, $sort: [String!]) {
+  carts(where: $where, sort: $sort) {
+    results {
+      id
+      version
+      cartState
+      createdAt
+      lastModifiedAt
+      lineItems {
+        id
+        productId
+        nameAllLocales {
+          locale
+          value
+        }
+        variant {
+          id
+          sku
+        }
+        price {
+          value {
+            currencyCode
+            centAmount
+            fractionDigits
+          }
+        }
+        quantity
+      }
+      shippingAddress {
+        firstName
+        lastName
+        streetName
+        streetNumber
+        postalCode
+        city
+        state
+        country
+      }
+
+      billingAddress {
+        firstName
+        lastName
+        streetName
+        streetNumber
+        postalCode
+        city
+        state
+        country
+      }
+      totalPrice {
+        currencyCode
+        centAmount
+        fractionDigits
+      }
+      businessUnit {
+        key
+        name
+      }
+    }
+  }
+}
