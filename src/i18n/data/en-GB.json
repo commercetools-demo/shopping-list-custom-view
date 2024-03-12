@@ -1,13 +1,13 @@
 {
-    "ShoppingLists.title" : "Shopping Lists",
+    "ShoppingLists.title" : "Gift Registries",
     "ShoppingLists.actions" : "Actions",
     "ShoppingLists.noResults" : "No Results",
-    "shoppingList.title" : "Shopping List",
+    "shoppingList.title" : "Gift Registry",
 
-    "ShoppingLists.subtitle" : "List of all shopping lists from selected customer",
+    "ShoppingLists.subtitle" : "List of all gift registries from selected customer",
     "shoppingList.back": "Back",
-    "deleteAsset.title": "Are you sure you want to delete this cart?",
-    "shoppingList.lineItems": "Shopping List Items",
+    "deleteAsset.title": "Are you sure you want to delete this gift registry?",
+    "shoppingList.lineItems": "Gift Registry Items",
     "lineItem.previous": "Cart Details",
     "lineItem.back": "Back",
     "lineItem.title": "Line Item Modification",
