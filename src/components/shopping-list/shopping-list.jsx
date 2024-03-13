@@ -118,7 +118,7 @@ const ShoppingList = ({ onClose, shoppingList }) => {
           <Card type="flat" insetScale="s">
             
             
-            <TextField title="Shopping List name" horizontalConstraint={6} isReadOnly={true} value={shoppingList.nameAllLocales[0].value}  onChange={(event) => alert(event)} />
+            <TextField title="Gift Registry name" horizontalConstraint={6} isReadOnly={true} value={shoppingList.nameAllLocales[0].value}  onChange={(event) => alert(event)} />
             
           </Card>
         </Grid.Item>
